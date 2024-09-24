@@ -1,0 +1,12 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-family);
+    color: white;
+    margin: 0;
+    height: 94vh;
+    background: linear-gradient(to bottom right, var(--green-300), var(--green-900));
+    -webkit-background-size: cover;
+    background-size: cover;
+}
